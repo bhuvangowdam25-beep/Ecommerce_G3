@@ -207,5 +207,7 @@ nav a:hover {
   const books = document.querySelectorAll(".book");
 
       books.forEach(book => {
+ const title = book.querySelector("h3").innerText.toLowerCase();
+        const author = book.querySelector("p").innerText.toLowerCase();
 
 
