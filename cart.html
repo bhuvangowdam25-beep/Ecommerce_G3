@@ -182,4 +182,8 @@ const summary = document.getElementById("cartSummary");
         actionsDiv.className = "actions";
 
         const removeBtn = document.createElement("button");
+removeBtn.textContent = "Remove";
+        removeBtn.className = "remove-btn";
+        removeBtn.onclick = () => removeItem(index);
+
 
