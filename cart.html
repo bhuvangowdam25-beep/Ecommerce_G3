@@ -166,4 +166,7 @@ const summary = document.getElementById("cartSummary");
       cartList.innerHTML = "";
       summary.innerHTML = "";
 
+  if (cart.length === 0) {
+        cartList.innerHTML = '<p class="empty-msg">Your cart is empty.</p>';
+        return;
 
