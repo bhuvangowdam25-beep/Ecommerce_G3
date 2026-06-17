@@ -204,4 +204,9 @@ cartList.appendChild(li);
         cart.splice(index, 1);
         localStorage.setItem("cart", JSON.stringify(cart));
         loadCart();
+ }
+    }
+
+    function clearCart() {
+      if (confirm("This will remove all items. Continue?")) {
 
