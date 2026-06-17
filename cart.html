@@ -174,4 +174,8 @@ const summary = document.getElementById("cartSummary");
       cart.forEach((book, index) => {
         const li = document.createElement("li");
 
+ const titleSpan = document.createElement("span");
+        titleSpan.className = "book-title";
+        titleSpan.textContent = book;
+
 
